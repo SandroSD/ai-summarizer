@@ -50,6 +50,16 @@ Check out the live demo [here](#).
 
 ## Installation
 
+First, duplicate `.env.sample`and rename it as `.env`.
+
+It will have the following variable:
+
+```shell
+VITE_RAPID_API_ARTICLE_KEY
+```
+
+Go to [RapidApi](https://rapidapi.com/restyler/api/article-extractor-and-summarizer) and click `/summarize` endpoint. Then copy the value of the following key `X-RapidAPI-Key` and paste in the `.env` variable.
+
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
